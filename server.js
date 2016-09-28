@@ -15,4 +15,4 @@ var server = http.createServer( (req, res)=> {
     res.end('nodejs server test');
 });
 
-server.listen(3000);
+server.listen(80);
