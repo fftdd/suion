@@ -1,6 +1,7 @@
 'use strict';
 
-var http = require('http'),
+var url = require('url'),
+    http = require('http'),
     path = require('path');
 
 var server = http.createServer( (req, res)=> {
@@ -14,4 +15,4 @@ var server = http.createServer( (req, res)=> {
     res.end('nodejs server test');
 });
 
-server.listen(80);
+server.listen(3000);
